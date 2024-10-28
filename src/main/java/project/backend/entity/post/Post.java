@@ -60,7 +60,7 @@ public class Post extends BaseEntity {
   @Column(nullable = false, length = 2084)
   private String url;
 
-  @Column
+  @Column(columnDefinition = "TEXT")
   private String memo;
 
   @Column
